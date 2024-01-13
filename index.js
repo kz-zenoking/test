@@ -11,5 +11,5 @@ app.get("/utilisateur/:id", (req, res) => {
 
 // Écoute du serveur
 app.listen(port, () => {
-  console.log(`Serveur en écoute sur le port ${port}`);
+  console.log(`Serveur en ecoute sur le port ${port}`);
 });
